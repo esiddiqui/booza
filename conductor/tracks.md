@@ -4,5 +4,5 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ---
 
-- [ ] **Track: Scaffold Go Project with Automated CI/CD and Release Management**
+- [~] **Track: Scaffold Go Project with Automated CI/CD and Release Management**
   *Link: [./tracks/scaffold_20260325/](./tracks/scaffold_20260325/)*
