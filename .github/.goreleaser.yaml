@@ -13,11 +13,19 @@ builds:
     goos:
       - darwin
       - windows
+      - linux
     goarch:
       - amd64
       - arm64
     main: ./main.go
     binary: booza
+    ldflags:
+      - -s -w -X main.Version={{.Version}}
+    ignore:
+      - goos: darwin
+        goarch: amd64
+      - goos: linux
+        goarch: arm64
 
 archives:
   - format: zip

@@ -6,6 +6,8 @@ func Greeting() string {
 	return "Hello, Booza!"
 }
 
+var Version = "dev"
+
 func main() {
-	fmt.Println(Greeting())
+	fmt.Printf("%s (version: %s)\n", Greeting(), Version)
 }
