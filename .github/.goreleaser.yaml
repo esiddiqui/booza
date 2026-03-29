@@ -13,7 +13,6 @@ builds:
     goos:
       - darwin
       - windows
-      - linux
     goarch:
       - amd64
       - arm64
@@ -24,7 +23,7 @@ builds:
     ignore:
       - goos: darwin
         goarch: amd64
-      - goos: linux
+      - goos: windows
         goarch: arm64
 
 archives:
