@@ -5,7 +5,7 @@
     - [ ] Run `go mod init github.com/user/booza`
     - [ ] Create a basic `main.go` file
     - [ ] Verify the project builds locally with `go build`
-- [ ] Task: Setup Project Documentation
+- [x] Task: Setup Project Documentation 392c568
     - [ ] Add a permissive LICENSE file (e.g., MIT)
     - [ ] Add a CONTRIBUTING.md file
     - [ ] Create a POLICY.md file for open collaboration
